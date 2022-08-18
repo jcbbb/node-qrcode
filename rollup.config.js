@@ -29,6 +29,7 @@ export default [
       exports: "named",
       name: "QRCode",
     },
+    plugins: [commonjs(), resolve(), babel(babelConfig), terser()],
   },
   {
     input: "helper/to-sjis-browser.js",
