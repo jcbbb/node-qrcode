@@ -22,7 +22,8 @@
     "test": "node --throw-deprecation test.js",
     "build": "rollup -c",
     "prepublish": "npm run build",
-    "browser": "node examples/clientsideserver.js"
+    "browser": "node examples/clientsideserver.js",
+    "prepare": "npm run build"
   },
   "bin": {
     "qrcode": "./bin/qrcode"
