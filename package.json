@@ -7,23 +7,13 @@
     "Vincenzo Greco <greco.vincenzo@gmail.com>",
     "Linus Unnebäck <linus@folkdatorn.se>"
   ],
-  "keywords": [
-    "qr",
-    "code",
-    "canvas",
-    "qrcode"
-  ],
+  "keywords": ["qr", "code", "canvas", "qrcode"],
   "main": "./lib/index.js",
   "browser": {
     "./lib/index.js": "./lib/browser.js",
     "fs": false
   },
-  "files": [
-    "bin",
-    "build",
-    "lib",
-    "helper"
-  ],
+  "files": ["bin", "build", "lib", "helper"],
   "homepage": "http://github.com/soldair/node-qrcode",
   "license": "MIT",
   "scripts": {
@@ -69,10 +59,6 @@
     "node": ">=10.13.0"
   },
   "standard": {
-    "ignore": [
-      "build/",
-      "examples/vendors/",
-      "lib/core/regex.js"
-    ]
+    "ignore": ["build/", "examples/vendors/", "lib/core/regex.js"]
   }
 }
